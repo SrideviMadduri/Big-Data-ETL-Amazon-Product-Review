@@ -1,0 +1,11 @@
+select count(*) from vine_table where vine = 'N' 
+and helpful_votes >5 and  star_rating in (5,4)----162774
+
+select count(*) from vine_table where vine='N' and 
+helpful_votes >5 ---245592
+
+select count(*) from vine_table where vine = 'Y'
+and helpful_votes >5 and  star_rating in (5,4) ---2334
+
+select count(*) from vine_table where vine='Y' and 
+helpful_votes >5 ---3412
